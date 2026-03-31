@@ -1,0 +1,35 @@
+[phases.setup]
+nixPkgs = [
+  "python313",
+  "glib",
+  "nss",
+  "nspr",
+  "atk",
+  "at-spi2-atk",
+  "cups",
+  "dbus",
+  "expat",
+  "libdrm",
+  "mesa",
+  "xorg.libxcb",
+  "xorg.libX11",
+  "xorg.libXcomposite",
+  "xorg.libXdamage",
+  "xorg.libXext",
+  "xorg.libXfixes",
+  "xorg.libXrandr",
+  "xorg.libXi",
+  "xorg.libXrender",
+  "xorg.libXtst",
+  "xorg.libXScrnSaver",
+  "pango",
+  "cairo",
+  "alsa-lib",
+  "gtk3",
+  "libxkbcommon",
+  "fontconfig",
+  "freetype"
+]
+
+[start]
+cmd = "bash start.sh"
