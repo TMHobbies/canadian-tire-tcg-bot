@@ -1,0 +1,58 @@
+discord_webhook: https://discord.com/api/webhooks/1488257903772172382/sKepwTTNn5vlFEBSYYgw66t9cf91v1bqid6BQ23SBcKOjepiTwIgiVLYfYsbuIBLR4u_
+headless: true
+alerts:
+  cooldown_minutes: 60
+  send_initial_stock_alerts: false
+products:
+- name: Phantasmal Flames 3 Pack Blister
+  pcode: 1501498p
+  url: https://www.canadiantire.ca/en/pdp/pokemon-blisters-booster-packs-3-pk-assorted-1501498p.html?rq=phantasmal+flames
+  image_url: https://media-www.canadiantire.ca/product/seasonal-gardening/toys/toys-games/1501498/pokemon-3-pack-booster-6d72e284-becc-4cff-a9f8-2387bc990f77-jpgrendition.jpg
+- name: Phantasmal Flames Sleeved Booster Pack
+  pcode: 1501497p
+  url: https://www.canadiantire.ca/en/pdp/pokemon-phantasmal-flames-booster-pack-1501497p.html?rq=phantasmal+flames
+  image_url: https://media-www.canadiantire.ca/product/seasonal-gardening/toys/toys-games/1501497/pokemon-booster-pack-fa737e6e-ea21-4cf6-ba42-f7d67284c32d-jpgrendition.jpg
+- name: Phantasmal Flames Checklane Blister Pack
+  pcode: 0509410p
+  url: https://www.canadiantire.ca/en/pdp/pokemon-card-set-checklane-ages-3-0509410p.html?rq=phantasmal+flames
+  image_url: https://media-www.canadiantire.ca/product/seasonal-gardening/toys/toys-games/0509410/pokemon-card-set-checklane-af5d527b-acf7-4c99-884c-bf355a27deea-jpgrendition.jpg
+stores:
+- key: duncan
+  name: Duncan, BC
+  profile_dir: ./profiles/duncan
+  store_id: '466'
+- key: north_saanich
+  name: North Saanich, BC
+  profile_dir: ./profiles/north_saanich
+  store_id: '932'
+- key: victoria_royal_oak
+  name: Victoria Royal Oak, BC
+  profile_dir: ./profiles/victoria_royal_oak
+  store_id: '369'
+- key: victoria_langford
+  name: Victoria Langford, BC
+  profile_dir: ./profiles/victoria_langford
+  store_id: '366'
+- key: victoria_view_royal
+  name: Victoria View Royal, BC
+  profile_dir: ./profiles/victoria_view_royal
+  store_id: '368'
+- key: nanaimo
+  name: Nanaimo, BC
+  profile_dir: ./profiles/nanaimo
+  store_id: '362'
+- key: parksville
+  name: Parksville, BC
+  profile_dir: ./profiles/parksville
+  store_id: '490'
+- key: port_alberni
+  name: Port Alberni, BC
+  profile_dir: ./profiles/port_alberni
+  store_id: '488'
+- key: courtenay
+  name: Courtenay, BC
+  profile_dir: ./profiles/courtenay
+  store_id: '350'
+check_interval_seconds: 30
+natural_delay_min_ms: 700
+natural_delay_max_ms: 1400
