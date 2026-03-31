@@ -1,0 +1,4 @@
+discord.py
+playwright
+pyyaml
+requests
